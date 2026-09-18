@@ -11,7 +11,7 @@
 
 .card header {
   display: block;
-  background-color: red;
+  background-color: transparent;
   position: static;
   padding: 0;
   margin-bottom: 24px;
@@ -32,6 +32,26 @@
   font-size: 32px;
   margin-top: 24px;
   display: inline-block;
+}
+
+.card.japao {
+  background: url(../img/japao-card.png) no-repeat;
+  background-size: cover;
+}
+
+.card.san-andreas {
+  background: url(../img/san-andreas-card.png) no-repeat;
+  background-size: cover;
+}
+
+.card.paraiba {
+  background: url(../img/paraiba-card.png) no-repeat;
+  background-size: cover;
+}
+
+.card.manaus {
+  background: url(../img/manaus-card.png) no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-width: 1024px) {
