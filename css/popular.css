@@ -1,0 +1,40 @@
+.popular-destiny .section-title {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.popular-cards .destiny {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular-cards .destiny header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+
+.popular-cards img {
+  align-items: center;
+  margin-bottom: 24px;
+  width: 312px;
+}
+
+.popular-cards h3 {
+  font-size: 24px;
+  font-weight: var(--title-weight);
+  margin-bottom: 24px;
+}
+
+.popular-cards p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.popular-cards .destiny .button {
+  margin-bottom: 40px;
+  width: 312px;
+}
