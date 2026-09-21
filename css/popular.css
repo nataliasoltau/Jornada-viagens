@@ -1,3 +1,8 @@
+.popular-destiny {
+  width: 312px;
+  margin: 0 auto;
+}
+
 .popular-destiny .section-title {
   width: 280px;
   margin: 0 auto;
@@ -9,21 +14,25 @@
   align-items: center;
 }
 
-.popular-cards .destiny header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0 24px;
-  margin-bottom: 24px;
-}
-
-.popular-cards img {
-  align-items: center;
+.destiny-img-tokyo {
+  background: url("../img/tokyo-mobile.jpg") no-repeat;
   margin-bottom: 24px;
   width: 312px;
+  height: 360px;
 }
 
-.popular-cards h3 {
+.destiny-img-osaka {
+  background: url("../img/osaka-mobile.jpg") no-repeat;
+  margin-bottom: 24px;
+  width: 312px;
+  height: 360px;
+}
+
+.popular-cards {
+  width: 100%;
+}
+
+.popular-cards h4 {
   font-size: 24px;
   font-weight: var(--title-weight);
   margin-bottom: 24px;
@@ -34,7 +43,42 @@
   margin-bottom: 20px;
 }
 
-.popular-cards .destiny .button {
+.destiny .button {
   margin-bottom: 40px;
-  width: 312px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-destiny {
+    width: 648px;
+  }
+
+  .destiny-img-tokyo {
+    background: url("../img/tokyo-tablet-desk.jpg") no-repeat;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 24px;
+    width: 648px;
+    height: 452px;
+  }
+
+  .destiny-img-osaka {
+    background: url("../img/osaka-tablet-desk.jpg") no-repeat;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 24px;
+    width: 648px;
+    height: 452px;
+  }
+
+  .destiny .button {
+    margin-bottom: 40px;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .popular-destiny {
+    width: 900px;
+  }
 }
