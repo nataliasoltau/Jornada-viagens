@@ -35,8 +35,18 @@
   line-height: 32px;
 }
 
+@media screen and (min-width: 1024px) {
+  .testimonial-container {
+    flex-direction: row;
+  }
+
+  .testimonial-container article {
+    flex: 1;
+  }
+}
+
 @media screen and (min-width: 1440px) {
-  .testimonial-conteiner {
+  .testimonial-container {
     flex-direction: row;
   }
 }
