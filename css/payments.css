@@ -53,5 +53,6 @@
 
   .payments .image-content {
     width: 790px;
+    margin: 0;
   }
 }
