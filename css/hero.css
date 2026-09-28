@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+.hero-travel .hero-img {
+  height: 460px;
+}
+
 .hero .hero-img {
   background-image: url("../img/hero-mobile.png");
   background-repeat: no-repeat;
@@ -15,6 +19,11 @@
   background-size: cover;
 }
 
+.hero-travel .hero-img {
+  background: url("../img/hero-travel-mobile.png") no-repeat;
+  background-size: cover;
+}
+
 .hero h2 {
   padding: 88px 24px;
   margin: 0;
@@ -22,6 +31,30 @@
   font-size: 20px;
   text-align: center;
   line-height: 1.5;
+}
+
+.hero-travel .hero-text {
+  margin: 0;
+  padding: 65px 24px;
+}
+
+.hero-travel h1 {
+  color: var(--text-secondary-color);
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  margin-bottom: 16px;
+}
+
+.hero-travel hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin-bottom: 32px;
+}
+
+.hero-travel p {
+  color: var(--text-secondary-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -36,6 +69,22 @@
     height: 400px;
     background: url("../img/footer-tablet.png") no-repeat;
     background-size: cover;
+  }
+
+  .hero-travel .hero-img {
+    height: 620px;
+    background: url("../img/hero-travel-tablet.png") no-repeat;
+    background-size: cover;
+  }
+
+  .hero-travel .hero-text {
+    margin: 0;
+    padding: 180px 120px;
+  }
+
+  .hero-travel p {
+    font-size: 32px;
+    line-height: 150%;
   }
 
   .hero h2 {

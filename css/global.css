@@ -35,7 +35,8 @@ section {
 }
 
 section.hero,
-section.bottom-hero {
+section.bottom-hero,
+section.hero-travel {
   width: 100%;
   margin: 0;
 }
