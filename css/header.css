@@ -54,7 +54,7 @@ nav {
   font-size: 24px;
 }
 
-.list-links li a .package-travel {
+.list-links li a.active {
   text-decoration: underline;
 }
 
