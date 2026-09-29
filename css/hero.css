@@ -22,6 +22,12 @@
 .hero-travel .hero-img {
   background: url("../img/hero-travel-mobile.png") no-repeat;
   background-size: cover;
+  margin-bottom: 105px;
+}
+
+.bottom-hero .hero-img.travel {
+  background: url("../img/footer-travel-mobile.png") no-repeat;
+  background-size: cover;
 }
 
 .hero h2 {
@@ -77,6 +83,11 @@
     background-size: cover;
   }
 
+  .bottom-hero .hero-img.travel {
+    background: url("../img/footer-travel-tablet.png") no-repeat;
+    background-size: cover;
+  }
+
   .hero-travel .hero-text {
     margin: 0;
     padding: 180px 120px;
@@ -104,6 +115,11 @@
   .bottom-hero .hero-img {
     height: 500px;
     background: url("../img/footer-desktop.png") no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img.travel {
+    background: url("../img/footer-travel-desktop.png") no-repeat;
     background-size: cover;
   }
 

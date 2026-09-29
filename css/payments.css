@@ -25,6 +25,29 @@
   grid-column: span 2;
 }
 
+.payments .content-container .image-content .image.japao-1 {
+  background: url(../img/japao-1-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-content .image.japao-2 {
+  background: url(../img/japao-2-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-content .image.image.japao-3 {
+  background: url(../img/japao-3-mobile.png) no-repeat;
+  background-size: cover;
+}
+.payments .content-container .image-content .image.colspan-2 {
+  grid-column: span 2;
+}
+
+.payments .content-container .text-content .button {
+  width: 100%;
+  margin-top: 24px;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-content .image.bag {
     background: url(../img/bag-tablet.png) no-repeat;
@@ -39,6 +62,24 @@
   .payments .content-container .image-content .image.people {
     background: url(../img/people-tablet.png) no-repeat;
     background-size: cover;
+  }
+
+  .payments .content-container .image-content .image.japao-1 {
+    background: url(../img/japao-1-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-content .image.japao-2 {
+    background: url(../img/japao-2-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-content .image.image.japao-3 {
+    background: url(../img/japao-3-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .text-content .button {
+    width: 280px;
   }
 }
 
